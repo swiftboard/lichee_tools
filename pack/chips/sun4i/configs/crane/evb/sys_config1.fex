@@ -1,7 +1,7 @@
 ;PAD application
 ;---------------------------------------------------------------------------------------------------------
-; ËµÃ÷£º ½Å±¾ÖÐµÄ×Ö·û´®Çø·Ö´óÐ¡Ð´£¬ÓÃ»§¿ÉÒÔÐÞ¸Ä"="ºóÃæµÄÊýÖµ£¬µ«ÊÇ²»ÒªÐÞ¸ÄÇ°ÃæµÄ×Ö·û´®
-; ÃèÊögpioµÄÐÎÊ½£ºPort:¶Ë¿Ú+×éÄÚÐòºÅ<¹¦ÄÜ·ÖÅä><ÄÚ²¿µç×è×´Ì¬><Çý¶¯ÄÜÁ¦><Êä³öµçÆ½×´Ì¬>
+; Ëµï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ï¿½Ðµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ð¡Ð´ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½"="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Ç²ï¿½Òªï¿½Þ¸ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+; ï¿½ï¿½ï¿½ï¿½gpioï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½Port:ï¿½Ë¿ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<ï¿½ï¿½ï¿½Ü·ï¿½ï¿½ï¿½><ï¿½Ú²ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬><ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½><ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ½×´Ì¬>
 ;---------------------------------------------------------------------------------------------------------
 
 [product]
@@ -309,10 +309,10 @@ full_duplex             = 0
 manual_cs               = 0
 
 ;----------------------------------------------------------------------------------
-;rtp_screen_size     :       ±íÆÁÄ»³ß´ç£¬ÒÔÐ±¶Ô½Ç·½Ïò³¤¶ÈÎª×¼£¬ÒÔ´çÎªµ¥Î»
-;tp_regidity_level   :       ±íÆÁÄ»µÄÓ²¶È£¬ÒÔÖ¸¸²°´Ñ¹£¬Ì§ÆðÊ±¿ªÊ¼¼ÆÊ±£¬¶àÉÙ¸ö10msÊ±¼äµ¥Î»Ö®ºó£¬Ó²¼þ²É¼¯²»µ½Êý¾ÝÎª×¼£»
-;                            Í¨³££¬ÎÒÃÇ½¨ÒéµÄÆÁ£¬5´çÆÁÉèÎª5,7´çÆÁÉèÎª7£¬
-;                            ¶ÔÓÚÄ³Ð©¹©Ó¦ÉÌÌá¹©µÄÆÁ£¬Ó²¶È¿ÉÄÜ²»ºÏÒªÇó£¬ÐèÒªÊÊ¶Èµ÷Õû
+;rtp_screen_size     :       ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ß´ç£¬ï¿½ï¿½Ð±ï¿½Ô½Ç·ï¿½ï¿½ò³¤¶ï¿½Îª×¼ï¿½ï¿½ï¿½Ô´ï¿½Îªï¿½ï¿½Î»
+;tp_regidity_level   :       ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½Ó²ï¿½È£ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½Ì§ï¿½ï¿½Ê±ï¿½ï¿½Ê¼ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ù¸ï¿½10msÊ±ï¿½äµ¥Î»Ö®ï¿½ï¿½ï¿½ï¿½Ó²ï¿½ï¿½ï¿½É¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª×¼ï¿½ï¿½
+;                            Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª5,7ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª7ï¿½ï¿½
+;                            ï¿½ï¿½ï¿½ï¿½Ä³Ð©ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½á¹©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó²ï¿½È¿ï¿½ï¿½Ü²ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Ê¶Èµï¿½ï¿½ï¿½
 ;rtp_press_threshold_enable: whether press threshold is enable or not. 0 is suggested.
 ;rtp_press_threshold       : only when rtp_press_threshold_enable == 1, this para take effect.
 ;                             between 0 and 0xFFFFFF  is supported.more bigger, more sensitive, 0x1f40 is suggested.
@@ -418,7 +418,7 @@ nand_ndqs                = port:PC24<2><default><default><default>
 disp_init_enable         = 1
 disp_mode                = 0
 
-screen0_output_type      = 3
+screen0_output_type      = 1
 screen0_output_mode      = 4
 
 screen1_output_type      = 1
@@ -810,20 +810,20 @@ sata_power_en            =
 ;--------------------------------------------------------------------------------
 ;   SDMMC PINS MAPPING                                                         |
 ; ------------------------------------------------------------------------------|
-;   ÅäÖÃÑ¡Ïî£º                                                                  |
-;   sdc_used  --- ´Ësdc¿ØÖÆÆ÷ÊÇ·ñÊ¹ÓÃ£¬1-Ê¹ÓÃ£¬0-²»Ê¹ÓÃ                       |
-;   sdc_detmode --- ¿¨¼ì²âÄ£Ê½                          |
-;         1-gpio¼ì²â£¬2-data3¼ì²â£¬3-ÎÞ¼ì²â£¬¿¨³£ÔÚ(²»¿¨°Î²å)     |
+;   ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½î£º                                                                  |
+;   sdc_used  --- ï¿½ï¿½sdcï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½Ê¹ï¿½Ã£ï¿½1-Ê¹ï¿½Ã£ï¿½0-ï¿½ï¿½Ê¹ï¿½ï¿½                       |
+;   sdc_detmode --- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£Ê½                          |
+;         1-gpioï¿½ï¿½ï¿½â£¬2-data3ï¿½ï¿½ï¿½â£¬3-ï¿½Þ¼ï¿½ï¿½â£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Î²ï¿½)     |
 ;                 4 - manual mode(from proc file system node)                 |
-;   sdc_bwid  --- ¿¨Êý¾ÝÎ»¿í£¬1-1bit£¬ 4-4bit£¬ other-no use                  |
-;   ÆäÓà: portÅäÖÃ                                                              |
+;   sdc_bwid  --- ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½1-1bitï¿½ï¿½ 4-4bitï¿½ï¿½ other-no use                  |
+;   ï¿½ï¿½ï¿½ï¿½: portï¿½ï¿½ï¿½ï¿½                                                              |
 ; ------------------------------------------------------------------------------|
-;   ÌØ±ðËµÃ÷£º                                                                  |
-;   1.Ã¿¸ö¿¨¿ØÖÆÆ÷±ØÐëÓÐsdc_usedÅäÖÃ£¬µ±sdc_used Îª 0Ê±£¬ÆäÓà²ÎÊý¿É²»Åä          |
-;   2.¿¨Ê¹ÓÃdata3¼ì²âµÄÊ±ºò(sdc_detmode Îª 2)£¬gpioÅäÖÃÀïSDC_D3µÄpull up/downÐèÒª|
-;   ±£Ö¤¸ß×è×´Ì¬ÇÒÍâ²¿µçÂ·ÐèÒª¶Ôdata3Ê¹ÓÃ1M¦¸×óÓÒµÄµç×èÏÂÀ­£¬Ê¹ÓÃÇëÏêÏ¸×ÉÑ¯£¬ÎóÉÃ|
-;   ×Ô¾ö¶¨                                                                      |
-;   3.Ê¹ÓÃgpio¼ì²âÊ±±ØÐëÅäÖÃsdc_det¼ì²âpin½Å¶Ë¿Ú                                |
+;   ï¿½Ø±ï¿½Ëµï¿½ï¿½ï¿½ï¿½                                                                  |
+;   1.Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sdc_usedï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½sdc_used Îª 0Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É²ï¿½ï¿½ï¿½          |
+;   2.ï¿½ï¿½Ê¹ï¿½ï¿½data3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½(sdc_detmode Îª 2)ï¿½ï¿½gpioï¿½ï¿½ï¿½ï¿½ï¿½ï¿½SDC_D3ï¿½ï¿½pull up/downï¿½ï¿½Òª|
+;   ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½ï¿½â²¿ï¿½ï¿½Â·ï¿½ï¿½Òªï¿½ï¿½data3Ê¹ï¿½ï¿½1Mï¿½ï¿½ï¿½ï¿½ï¿½ÒµÄµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½|
+;   ï¿½Ô¾ï¿½ï¿½ï¿½                                                                      |
+;   3.Ê¹ï¿½ï¿½gpioï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½sdc_detï¿½ï¿½ï¿½ï¿½pinï¿½Å¶Ë¿ï¿½                                |
 ;--------------------------------------------------------------------------------
 [mmc0_para]
 sdc_used                 =1
@@ -944,7 +944,7 @@ kp_out7                  = port:PH27<4><1><default><default>
 
 
 ;--------------------------------
-;---       USB0¿ØÖÆ±êÖ¾
+;---       USB0ï¿½ï¿½ï¿½Æ±ï¿½Ö¾
 ;--------------------------------
 [usbc0]
 usb_used                 = 1
@@ -956,7 +956,7 @@ usb_drv_vbus_gpio        = port:PB9<1><0><default><0>
 usb_host_init_state      = 0
 
 ;--------------------------------
-;---       USB1¿ØÖÆ±êÖ¾
+;---       USB1ï¿½ï¿½ï¿½Æ±ï¿½Ö¾
 ;--------------------------------
 [usbc1]
 usb_used                 = 1
@@ -967,7 +967,7 @@ usb_det_vbus_gpio        =
 usb_drv_vbus_gpio        = port:PH12<1><0><default><0>
 usb_host_init_state      = 1
 ;--------------------------------
-;---       USB2¿ØÖÆ±êÖ¾
+;---       USB2ï¿½ï¿½ï¿½Æ±ï¿½Ö¾
 ;--------------------------------
 [usbc2]
 usb_used                 = 1
@@ -1169,33 +1169,33 @@ ir0_rx                    = port:PB04<2><default><default><default>
 ;----------------------------------------------------------------------------------
 ;pmu_twi_addr           ---slave address
 ;pmu_twi_id             ---i2c bus number (0 TWI0, 1 TWI2, 2 TWI3)
-:pmu_irq_id             ---irq number (0 irq0,1 irq1,¡­¡­)
-;pmu_battery_rdc        ---battery initial resistance,m¦¸,¸ù¾ÝÊµ¼Êµç³ØÄÚ×èÌîÐ´
-;pmu_battery_cap        ---battery capability,mAh£¬¸ù¾ÝÊµ¼Êµç³ØÈÝÁ¿ÌîÐ´
-;pmu_init_chgcur        ---set initial charging current limite,mA£¬300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
-;pmu_suspend_chgcur     ---set suspend charging current limite,mA£¬300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
-;pmu_resume_chgcur      ---set resume charging current limite,mA£¬300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
-;pmu_shutdown_chgcur    ---set shutdown charging current limite,mA£¬300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
+:pmu_irq_id             ---irq number (0 irq0,1 irq1,ï¿½ï¿½ï¿½ï¿½)
+;pmu_battery_rdc        ---battery initial resistance,mï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½Êµï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´
+;pmu_battery_cap        ---battery capability,mAhï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´
+;pmu_init_chgcur        ---set initial charging current limite,mAï¿½ï¿½300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
+;pmu_suspend_chgcur     ---set suspend charging current limite,mAï¿½ï¿½300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
+;pmu_resume_chgcur      ---set resume charging current limite,mAï¿½ï¿½300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
+;pmu_shutdown_chgcur    ---set shutdown charging current limite,mAï¿½ï¿½300/400/500/600/700/800/900/1000/1100/1200/1300/1400/1500/1600/1700/1800
 ;pmu_init_chgvol        ---set initial charing target voltage,mV,4100/4150/4200/4360
 ;pmu_init_chgend_rate   ---set initial charing end current  rate,10/15
-;pmu_init_chg_enabled   ---set initial charing enabled,0:¹Ø±Õ,1:´ò¿ª
+;pmu_init_chg_enabled   ---set initial charing enabled,0:ï¿½Ø±ï¿½,1:ï¿½ï¿½ï¿½ï¿½
 ;pmu_init_adc_freq      ---set initial adc frequency,Hz,25/50/100/200
 ;pmu_init_adc_freqc     ---set initial coulomb adc coufrequency,Hz,25/50/100/200
 ;pmu_init_chg_pretime   ---set initial pre-charging time,min,40/50/60/70
 ;pmu_init_chg_csttime   ---set initial constance-charging time,min,360/480/600/720
-;pmu_usbvol_limit       ---set usb voltage limited enable,0:¹Ø±Õ,1:´ò¿ª
+;pmu_usbvol_limit       ---set usb voltage limited enable,0:ï¿½Ø±ï¿½,1:ï¿½ï¿½ï¿½ï¿½
 ;pmu_usbvol             ---set usb limited voltage level,mV,4000/4100/4200/4300/4400/4500/4600/4700
-;pmu_usbcur_limit       ---set usb current limited enable,0:¹Ø±Õ,1:´ò¿ª
+;pmu_usbcur_limit       ---set usb current limited enable,0:ï¿½Ø±ï¿½,1:ï¿½ï¿½ï¿½ï¿½
 ;pmu_usbcur             ---set usb limited voltage level,mA,100/500/900
 ;pmu_pwroff_vol         ---set protect voltage when system start up,mV,2600/2700/2800/2900/3000/3100/3200/3300
 ;pmu_pwron_vol          ---set protect voltage after system start up,mV,2600/2700/2800/2900/3000/3100/3200/3300
 ;pmu_pekoff_time        ---set pek off time,ms, 4000/6000/8000/10000
-;pmu_pekoff_en          ---set pek off enable, 0:¹Ø±Õ,1:´ò¿ª
+;pmu_pekoff_en          ---set pek off enable, 0:ï¿½Ø±ï¿½,1:ï¿½ï¿½ï¿½ï¿½
 ;pmu_peklong_time       ---set pek pek long irq time,ms,1000/1500/2000/2500
 ;pmu_pekon_time         ---set pek on time,ms,128/1000/2000/3000
 ;pmu_pwrok_time         ---set pmu pwrok delay time,ms,8/64
 ;pmu_pwrnoe_time        ---set pmu n_oe power down delay time,ms,128/1000/2000/3000
-;pmu_intotp_en		  		---set pmu power down when overtempertur enable,0:¹Ø±Õ£¬1£º´ò¿ª
+;pmu_intotp_en		  		---set pmu power down when overtempertur enable,0:ï¿½Ø±Õ£ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 ;----------------------------------------------------------------------------------
 [pmu_para]
 pmu_used                 = 1
